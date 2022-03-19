@@ -1,0 +1,822 @@
+/* Font */
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/sourcecodepro-regular-webfont.woff) format('woff');
+}
+
+/* style utama */
+
+html {
+    height: 100px;
+}
+
+body {
+    background-color: white;
+    font: 15px/28px 'Bebas', 'Arial Narrow', 'Arial', 'sans-serif';
+    height: 1800px;
+}
+
+
+.container {
+    position: relative;
+    margin: auto;
+}
+
+
+.Header {
+    padding: 10px;
+}
+
+
+.Header h1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: -5px;
+    color: rgb(201, 0, 94);
+    padding-left: 70px;
+    line-height: 80px;
+    background-image: url(../image/Png/Logo.png);
+    background-position: -60% 200%;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 100px;
+}
+
+.Header a {
+    text-decoration: none;
+    color: rgb(92, 92, 92)
+}
+
+.Header a:hover {
+    color: rgb(201, 0, 94);
+}
+
+.Header ul li {
+    display: inline-block;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    position: relative;
+    bottom: 90px;
+    left: 390px;
+    margin: 10px;
+}
+
+.border a {
+    text-decoration: none;
+    color: white;
+}
+.border a:hover {
+    color: aqua;
+}
+
+.border { 
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    position: absolute;
+    background-image: linear-gradient(rgb(201, 0, 94) 80%, white 80%, rgb(201, 0, 94) 80%);
+    margin-top: -145px;
+    margin-left: 1150px;
+    padding: 8px;
+}
+
+.text span {
+    color: rgb(201, 0, 94);
+}
+
+.text h1{
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    margin-top: 150px;
+    z-index: 9999;
+}
+
+.text p {
+    position: absolute;
+    font-size: 20px;
+    color: rgb(201, 0, 94);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    margin-top: 120px;
+    z-index: 9999;
+}
+
+.gambar .kotak {
+    display: block;
+    position: relative;
+    background-color: rgba(255, 255, 255, .6);
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    bottom: 345px;
+    border-radius: 10px;
+}
+
+.gambar img {
+    display: inline-block;
+    position: relative;
+    width: 1350px;
+    height: 570px;
+    bottom: 80px;
+    opacity: .9;
+    padding: auto;
+    box-shadow: 0 5px 10px 1px black;
+
+}
+
+.kotak form {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 35px;
+}
+
+.kotak1 {
+    float: left;
+}
+
+.kotak1 input {
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    border-color: #8f8f8f;
+}
+
+.kotak2 {
+    padding-right: 230px;
+
+}
+
+.kotak2 input {
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    border-color: #7e7e7e;
+}
+
+.kotak3 {
+    float: right;
+    margin-top: -90px;
+    
+}
+
+.kotak3 input {
+    display: block;
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    font-size: 17px;
+    border-color: hsl(0, 0%, 42%);
+}
+
+.submitdestination a:hover button {
+    color: rgb(201, 0, 94);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(201, 0, 94);
+    opacity: 1;
+    transform: scale(1)
+}
+
+.submitdestination button {
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(163, 0, 76);
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    border-color: #ffffff;
+    margin-top: 60px;
+    margin-right: 120px;
+    margin-left: -100px;
+    line-height: 35px;
+}
+
+.main22 a:hover select {
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 0, 94);
+}
+
+.main22 select {
+    position: relative;
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(201, 0, 94, 0);
+    border: none;
+    border-radius: 10px;
+    float: right;
+    bottom: 50px;
+    left: 30px;
+}
+
+.main a:hover select {
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 0, 94);
+}
+
+.main select {
+    position: relative;
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(201, 0, 94, 0);
+    border: none;
+    border-radius: 10px;
+    float: right;
+    bottom: 50px;
+    left: 30px;
+}
+
+/* content */
+
+.content {
+    position: relative;
+    background-color: rgba(255, 255, 255, .6);
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    bottom: 200px;
+    border-radius: 10px;
+}
+
+.content img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+.content1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.content1 h2 {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(201, 0, 94);
+    margin-top: 27px;
+    margin-right: 30px;
+    position: absolute;
+}
+
+.checked {
+    display: inline-block;
+    color: orange;
+    position: static;
+}
+
+.content1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 1px;
+    margin-left: 248px;
+    border: 2px solid rgb(201, 0, 94);
+    background-color: rgb(201, 0, 94);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.content1 h4 {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 90px;
+    margin-right: 30px;
+    position: absolute;
+}
+
+.content1 li h5 img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(201, 0, 94);
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -130px;
+    z-index: 9999;
+}
+
+.content1 a:hover  img{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.content1 li img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: url(../image/Png/asd.png);
+    background-color: rgb(201, 0, 94);
+    padding: 5px;
+    position: relative;
+    margin-top: 1px;
+    margin-left: 90px;
+}
+
+.content1 p {
+    width: 300px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 80px;
+    margin-right: 30px;
+    position: absolute;
+    text-align: justify;
+}
+
+.content1 a:hover .detail{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.content1 .detail {
+    display: block;
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    color: white;
+    background-color: rgb(201, 0, 94);
+    border-radius: 10px;
+    margin-top: 230px;
+    margin-left: 210px;
+}
+
+
+/* content 2 */
+
+.content2 {
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 350px;
+    float: left;
+}
+
+.content2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    box-sizing: border-box;
+}
+
+.content2 h2 {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(201, 0, 94);
+    margin-top: 27px;
+    margin-right: 90px;
+    position: absolute;
+}
+
+.checked {
+    display: inline-block;
+    color: orange;
+}
+
+.content2 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 1px;
+    margin-left: 248px;
+    border: 2px solid rgb(201, 0, 94);
+    background-color: rgb(201, 0, 94);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.content2 h4 {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 85px;
+    margin-right: 30px;
+    position: absolute;
+}
+
+.content2 li h5 img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(201, 0, 94);
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -250px;
+    z-index: 9999;
+}
+
+.content2 a:hover  img{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.content2 li img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: url(../image/Png/asd.png);
+    background-color: rgb(201, 0, 94);
+    padding: 5px;
+    position: relative;
+    margin-top: 1px;
+    margin-left: -20px;
+}
+
+.content2 p {
+    width: 300px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 75px;
+    margin-right: 30px;
+    position: absolute;
+    text-align: justify;
+}
+
+.content2 a:hover .detail{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.content2 .detail {
+    display: block;
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    color: white;
+    background-color: rgb(201, 0, 94);
+    border-radius: 10px;
+    margin-top: 230px;
+    margin-left: 210px;
+}
+
+/* content 3 */
+
+.content3 {
+    text-align: center;
+    margin-top: -250px;
+    float: right;
+}
+
+.content3 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.content3 h2 {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(201, 0, 94);
+    margin-top: 27px;
+    margin-right: 90px;
+    position: absolute;
+}
+
+.checked {
+    display: inline-block;
+    color: orange;
+}
+
+.content3 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 1px;
+    margin-left: 248px;
+    border: 2px solid rgb(201, 0, 94);
+    background-color: rgb(201, 0, 94);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.content3 h4 {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 85px;
+    margin-right: 30px;
+    position: absolute;
+}
+
+.content3 li h5 img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(201, 0, 94);
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -270px;
+    z-index: 9999;
+}
+
+.content3 a:hover  img{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.content3 li img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: url(../image/Png/asd.png);
+    background-color: rgb(201, 0, 94);
+    padding: 5px;
+    position: relative;
+    margin-top: 1px;
+    margin-left: -35px;
+}
+
+.content3 p {
+    width: 300px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 75px;
+    margin-right: 30px;
+    position: absolute;
+    text-align: justify;
+}
+
+.content3 a:hover .detail{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.content3 .detail {
+    display: block;
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    color: white;
+    background-color: rgb(201, 0, 94);
+    border-radius: 10px;
+    margin-top: 230px;
+    margin-left: 210px;
+}
+
+/* akhir */
+
+.akhir {
+    margin-top: -100px;
+    bottom: 0;
+    height: 500px;
+}
+
+.search .cari {
+    color: rgb(201, 0, 94);
+    font-size: 35px;
+    border-radius: 30px;
+    position: absolute;
+    opacity: .5;
+    z-index: 9999;
+}
+
+.cari input {
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: 680px;
+    margin-top: -8px;
+}
+
+.cari button {
+    display: block;
+    width: 90px;
+    color: rgb(201, 0, 94);
+    height: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1000px;
+    margin-top: -42px;
+    
+}
+
+.akhir p {
+    position: absolute;
+    font-size: 20px;
+    color: rgb(201, 0, 94);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 9999;
+    margin-top: -605px;
+    margin-left: 420px;
+}
+
+.akhir h1 span{
+    color: rgb(201, 0, 94);
+}
+
+
+.akhir h1 {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 9999;
+    margin-top: -575px;
+    margin-left: 300px;
+}
+
+
+.akhir .kotakakhir {
+    display: block;
+    position: relative;
+    background-color: rgba(255, 255, 255, .6);
+    width: 1000px;
+    height: 330px;
+    margin: auto;
+    bottom: 460px;
+    border-radius: 10px;
+}
+
+.akhir img {
+    display: inline-block;
+    position: relative;
+    width: 1350px;
+    height: 570px;
+    bottom: 80px;
+    box-shadow: 0 5px 10px 1px black;
+    opacity: .9;
+}
+
+
+.kotakakhir span {
+    display: inline-block;
+    font-size: 80px;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: -5px;
+    color: rgb(201, 0, 94);
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 80px;
+    background-image: url(../image/Png/Logo.png);
+    background-position: -50% 50%;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-bottom: -190px;
+}
+
+.kotakakhir h4 {
+    width: 400px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0, .7);
+    padding: 30px;
+    position: absolute;
+    text-align: justify;
+}
+
+.penutup .bold {
+    font-weight: bold;
+    color: rgb(201, 0, 94);
+}
+
+.penutup a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, .7);
+}
+.penutup a:hover {
+    color: rgb(201, 0, 94);
+}
+
+.penutup {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -40px;
+    margin-left: 100px;
+    color: rgb(0, 0, 0, .7);
+}
+
+.penutup2 .bold2 {
+    font-weight: bold;
+    color: rgb(201, 0, 94);
+}
+
+.penutup2 {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -200px;
+    margin-left: 370px;
+    color: rgb(0, 0, 0, .7);
+}
+
+.penutup3 .bold3 {
+    font-weight: bold;
+    color: rgb(201, 0, 94);
+}
+
+.penutup3 {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    margin-top: -195px;
+    margin-right: 40px;
+    color: rgb(0, 0, 0, .7);
+}
+
+.kesatu img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 72px;
+}
+
+.kedua img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: -15px;
+    right: 20px;
+}
+
+.ketiga img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: -49px;
+    right: -33px;
+}
+
+.keempat img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: -83px;
+    right: -87px;
+}
+
+.footer {
+    display: block;
+    background-color: rgb(2, 2, 2);
+    position: relative;
+    margin-top: -12px;
+}
+
+.footer .copy {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 8px;
+}
